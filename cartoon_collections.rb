@@ -25,7 +25,7 @@ array.detect { |call|
   end
 end
 
-def find_the_cheese(array) { |food| cheese_types.include?(food) }
+def find_the_cheese(array)
 cheese_types = ["cheddar", "gouda", "camembert"]
 counter = 0
   while counter < array.length
@@ -33,3 +33,5 @@ counter = 0
     counter += 1
   end
 end
+
+
